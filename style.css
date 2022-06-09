@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+.conteudo {
+    width: 614px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 614px;
+    height: 92px;
+    background-color: #CF2B2B;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 600px;
+}
+
+.bottom {
+    width: 614px;
+    height: 92px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 0;
+    left: 600px;
+}
+
+.order {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.category {
+    width: 100%;
+    margin-top: 30px;
+    overflow-x: scroll;
+}
+
+.first {
+    margin-top: 120px;
+}
+
+.last {
+    margin-bottom: 110px;
+}
+
+.items {
+    display: flex;
+}
+
+.item-box {
+    width: 172px;
+    height: 216px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.bottom h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-top: 10px;
+}
+
+.item-price {
+    color: black;
+}
+
+.item-box img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.item-box h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin: 10px auto;
+}
+
+.item-box h3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;
+    line-height: 20px;
+}
+
+.top h1 {
+    font-size: 44px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.top h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
