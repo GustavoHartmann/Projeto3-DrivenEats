@@ -135,25 +135,26 @@ h1 {
     font-size: 16px;
     font-weight: 700;
     color: #333333;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .item-box h3 {
     font-size: 15px;
     font-weight: 300;
     color: #A6A6A6;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 .top h1 {
     font-size: 44px;
     font-weight: 400;
     color: white;
-    margin-bottom: 5px;
 }
 
 .top h2 {
     font-size: 18px;
     font-weight: 400;
     color: white;
+    margin-top: -30px;
+    /*a margin ta '-30px' porque por algum motivo na margin padrao eles ficam muito afastados(no início nao tava assim)*/
 }
